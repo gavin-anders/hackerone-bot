@@ -7,7 +7,7 @@ from datetime import datetime
 token=os.environ['SLACK_API_TOKEN']
 assert token is not None
 
-channel = "#bugbounty"
+channel = "#bounty-hunter"
 client = slack.WebClient(token=token)
 
 #get feed
